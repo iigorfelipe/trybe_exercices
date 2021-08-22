@@ -1,21 +1,34 @@
-h1, p, ul {
+body{
+    background-color:#1f1f1f;
+    color: #ffffff;
+}
+
+h1, p, ol, ul {
     text-align: center;
+}
+
+h3{
+    color: rgb(243, 166, 0);
 }
 
 li{
     display: inline;
     margin-right: 50px;
-    background-color: rgb(236, 189, 118);
+    background-color: #363636;
+    border-radius: 10px;
+    padding:1px 5px;
 }
 
 a {
-    color: black;
+    color: rgb(243, 166, 0);
     text-decoration: none;
+    border-radius: 10px;
 }
 
-a:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(202, 140, 140);
+li:hover, a:hover {
+    background-color: #d2cfcf;
+    padding:0 5px;
+    color: black;
 }
 
 a:active {
@@ -26,6 +39,8 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#292828;
+    border-radius: 10px;
   }
 
 .motivosf li {

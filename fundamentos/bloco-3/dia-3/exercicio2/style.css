@@ -9,6 +9,8 @@ h1, p, ol, ul {
 
 h3{
     color: rgb(243, 166, 0);
+    margin-left: -35px;
+    
 }
 
 li{
@@ -41,6 +43,7 @@ a:active {
     justify-content: center;
     background-color:#292828;
     border-radius: 10px;
+    padding-left: 0px;
   }
 
 .motivosf li {

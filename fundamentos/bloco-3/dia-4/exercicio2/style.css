@@ -1,8 +1,54 @@
 body {
     text-align: center;
-  
+    margin: 1% 30%;
+    font-size: 17px;
+    background: #9ddbe4 url(bolhas.png);
+    font-family: sans-serif;
 }
-table{
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #0dc6e2;
+    padding: 10px;
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+table, li{
     margin:auto;
-    border: 1px solid black;
+    border: 0.5px solid rgb(9, 199, 167);
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+hgroup {
+    margin: auto;
+    display: inline-flex;
+}
+
+img {
+    border-radius: 5px;
+}
+
+aside {
+position:fixed;
+float: right;
+top: 40%;
+left: 70%;
+}
+
+footer{
+    padding: 10px;
 }

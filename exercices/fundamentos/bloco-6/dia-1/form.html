@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      Nome: <input type="text" max="40" required>
+      <br>
+      Email: <input type="text" max='50' required>
+      <br>
+      CPF: <input type="text" max='11' min="11" required>
+      <br>
+      Edereço: <input type="text" max="200" required>
+      <br>
+      Cidade: <input type="text" max="28" required>
+      <br>
+      Estado: <input type="select" required>
+      <br>
+      Tipo: <input type="radio" name="type"> CASA <input type="radio" name="type"> APARTAMENTO
+    </fieldset>
+
+    <fieldset>
+      Resumo do currículo <textarea max='1000' required></textarea>
+      <br>
+      Cargo: <input type="text" max='40' required>
+      <br>
+      Descrição do cargo: <input type="text" max='500' required>
+      <br>
+      Data de início: <input type="text">
+    </fieldset>
+    <button id='button' onclick="buttonForms()">Enviar</button>
+
+  </form>
+</body>
+</html>

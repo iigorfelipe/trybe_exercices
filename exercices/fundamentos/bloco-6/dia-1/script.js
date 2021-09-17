@@ -1,14 +1,30 @@
-let button = document.querySelector('#button');
-function buttonForms(e){
+function checkSubmit(e) {
   e.preventDefault();
+  // se nenhum capo foi preenchido então mostrar um alert para preencher
+  // se não, executar as funções:
+  checkName();
+  checkEmail();
+  checkCPF();
 }
-button.addEventListener('click', buttonForms);
 
-let date = document.querySelector('.date');
-let valueOfDate = date.value;
-for (let i = 0; i < valueOfDate.length; i += 1) {
-  if (valueOfDate[i] == '') {
-    alert('Valor inválido, digite apenas números!')
+function checkName() {
+  let name = document.querySelector('[name = name]');
+  if (name.value.length === 0) {
+  alert('Nome inválido!')
+  }
+}
+
+function checkEmail() {
+  let name = document.querySelector('[name = email]');
+  if (name.value.length < 8) {
+  alert('Email inválido!')
+  }
+}
+
+function checkCPF() {
+  let name = document.querySelector('[name = cpf]');
+  if (name.value.length < 11) {
+  alert('CPF inválido!')
   }
 }
 
@@ -21,4 +37,12 @@ function createOptions(){
     state.appendChild(option).innerText = states[i];
     state.appendChild(option).value = states[i];
   }
+}
+
+window.onload = function () {
+  
+  let button = document.querySelector('#button');
+  button.addEventListener('click', checkSubmit);
+
+  createOptions();
 }

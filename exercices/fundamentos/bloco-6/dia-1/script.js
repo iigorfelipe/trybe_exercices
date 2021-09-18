@@ -1,31 +1,78 @@
-function checkSubmit(e) {
-  e.preventDefault();
-  // se nenhum capo foi preenchido então mostrar um alert para preencher
-  // se não, executar as funções:
-  checkName();
-  checkEmail();
-  checkCPF();
-}
-
 function checkName() {
   let name = document.querySelector('[name = name]');
   if (name.value.length === 0) {
-  alert('Nome inválido!')
+  alert('Nome inválido!');
   }
 }
 
 function checkEmail() {
   let name = document.querySelector('[name = email]');
   if (name.value.length < 8) {
-  alert('Email inválido!')
+  alert('Email inválido!');
   }
 }
 
 function checkCPF() {
   let name = document.querySelector('[name = cpf]');
-  if (name.value.length < 11) {
-  alert('CPF inválido!')
+  if (name.value.length !== 11) {
+  alert('CPF inválido!');
   }
+}
+
+function checkAddress() {
+  let name = document.querySelector('[name = address]');
+  if (name.value.length < 5) {
+  alert('Endereço inválido!');
+  }
+}
+
+function checkCity() {
+  let name = document.querySelector('[name = city]');
+  if (name.value.length < 1) {
+  alert('Cidade inválida!');
+  }
+}
+
+function checkState() {
+  let name = document.querySelector('[name = state]');
+  if (name.value === 0) {
+  alert('Estado inválido!');
+  }
+}
+
+function checkRole() {
+  let name = document.querySelector('[name = role]');
+  if (name.value.length === 0) {
+  alert('Cargo inválido!');
+  }
+}
+
+function checkRoleDescrition() {
+  let name = document.querySelector('[name = roleDescrition]');
+  if (name.value.length < 12) {
+  alert('Descrição do cargo inválido!');
+  }
+}
+
+function checkDate() {
+  let name = document.querySelector('[name = date]');
+  if (name.value === 0) {
+    alert('Data inválida!');
+  }
+}
+
+
+function checkSubmit(e) {
+  e.preventDefault();
+  checkName();
+  checkEmail();
+  checkCPF();
+  checkAddress();
+  checkCity();
+  checkState();
+  checkRole();
+  checkRoleDescrition();
+  checkDate();
 }
 
 function createOptions(){

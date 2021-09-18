@@ -22,7 +22,7 @@
         
         <label for="cpf">CPF:</label>
 
-        <input type="text" name='cpf' maxlength='11' required><br>
+        <input type="number" name='cpf' placeholder="Apenas números" maxlength="11" required><br>
         
         <label for="address">Edereço:</label>
 
@@ -40,24 +40,24 @@
 
         <label for="type">Tipo de imóvel:</label>
 
-        <input type="radio" name="type"> CASA 
+        <input type="radio" name="type" checked> CASA 
         <input type="radio" name="type"> APARTAMENTO
       </fieldset>
 
       <fieldset>
         <textarea name='resume' maxlength='1000' placeholder="Resumo do curriculo" cols="45" rows="8" required></textarea><br>
         
-        <label for="position">Cargo:</label>
+        <label for="role">Cargo:</label>
 
-        <input type="text" name='position' maxlength='40' required><br>
+        <input type="text" name='role' maxlength='40' required><br>
         
-        <label for="positionDescrition">Descrição do cargo:</label>
+        <label for="roleDescrition">Descrição do cargo:</label>
 
-        <input type="text" name='positionDescrition' maxlength='500' required><br>
+        <input type="text" name='roleDescrition' maxlength='500' required><br>
         
-        <label for="start-date">Data de início:</label>
+        <label for="date">Data de início:</label>
 
-        <input class='date' name='start-date' type="text" maxlength="8"><br>
+        <input class='date' name='date' type="date" maxlength="8"><br>
       </fieldset>
       
       <button id='button' type='submit'>Enviar</button>

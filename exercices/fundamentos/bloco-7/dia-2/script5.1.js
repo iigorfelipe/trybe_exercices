@@ -1,5 +1,4 @@
 // Desenvolva uma função que recebe um array e retorna a soma de todos os números desse array
-// Ex:
 // resultado esperado: 59
 
 let array = [2, 3, 4, 6, 8, 12, 24]

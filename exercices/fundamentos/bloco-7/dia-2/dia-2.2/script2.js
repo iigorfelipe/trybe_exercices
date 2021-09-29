@@ -45,4 +45,10 @@ const students1 = allLessons.lesson1.numeroEstudantes;
 const students2 = allLessons.lesson2.numeroEstudantes;
 const students3 = allLessons.lesson3.numeroEstudantes;
 const returnTotal = allLessons => students1 + students2 + students3;
-console.log(returnTotal(allLessons));
+// console.log(returnTotal(allLessons));
+
+// 7)
+const returnKey = bololoHAHA => Object.values(bololoHAHA)[1];
+// console.log(returnKey(lesson1));
+
+// 8) 

@@ -51,4 +51,13 @@ const returnTotal = allLessons => students1 + students2 + students3;
 const returnKey = bololoHAHA => Object.values(bololoHAHA)[1];
 // console.log(returnKey(lesson1));
 
-// 8) 
+// 8)
+const checkPair = (obj, key, value) => {
+  const arr = Object.entries(obj);
+  let isEqual = false;
+  for (let i in arr) {
+    if (arr[i][0] === key && arr[i][1] === value) isEqual = true;
+  }
+  return isEqual;
+};
+console.log(checkPair(lesson1, 'professor', 'Maria Clara'));

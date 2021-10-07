@@ -61,10 +61,10 @@ const books = [
   },
 ];
 
-// 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// 3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
 
-const famousBooks = () => {
-  return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+const onlyFictionOrFantasy = () => {
+  return books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
 };
 
-console.log(famousBooks());
+console.log(onlyFictionOrFantasy());

@@ -61,12 +61,12 @@ const books = [
   },
 ];
 
-// 4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
+// 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-const ageBooks = () => {
+const oldBooks = () => {
   const currentYear = new Date().getFullYear();
   return books.filter((book) => book.releaseYear < currentYear - 60)
-  .sort((a, b) => b.releaseYear - a.releaseYear);
+  .map((book) => book.name);
 };
 
-console.log(ageBooks());
+console.log(oldBooks());

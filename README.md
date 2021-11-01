@@ -37,7 +37,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-5: _[Projeto - Meme Generator]()_
+- [ ] 5-5: _[Projeto - Meme Generator]()_
 - [X] 5-6: _[Projeto - Arte com Pixels]()_
 - [X] 5-7: _[Projeto - Lista de tarefas]()_
 
@@ -74,9 +74,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 10: Introdução - React
 
-- [x] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Movie Cards Library]()_
+- [X] 10-1: _'Hello, world!' no React!_
+- [X] 10-2: _Componentes React_
+- [X] 10-3: _[Projeto - Solar System]()_
 
 ##### Bloco 11: React
 

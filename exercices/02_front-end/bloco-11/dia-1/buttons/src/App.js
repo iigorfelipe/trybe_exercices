@@ -1,16 +1,37 @@
-import React from "react";
-
-const botao1 = () => console.log('Clicou no botão 1');
-const botao2 = () => console.log('Clicou no botão 2');
-const botao3 = () => console.log('Clicou no botão 3');
+import React from 'react';
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      numbersOfCLicks: 0,
+    };
+
+    this.botao = this.botao.bind(this);
+  }
+
+  botao() {
+    this.setState(({ numbersOfCLicks }) => ({
+      numbersOfCLicks: numbersOfCLicks + 1,
+    }), () => {
+      console.log(this.paintButton(this.state.numbersOfCLicks));
+    });
+  }
+
+  paintButton(num) {
+    return num % 2 === 0 ? 'blue' : 'red';
+  }
+
   render() {
+    const { numbersOfCLicks } = this.state;
     return (
       <div>
-        <button onClick={botao1}>Botão 1</button>
-        <button onClick={botao2}>Botão 2</button>
-        <button onClick={botao3}>Botão 3</button>
+        <button
+          onClick={ this.botao }
+          style={{ backgroundColor: this.paintButton(numbersOfCLicks) }}>
+            Clicks = { numbersOfCLicks }
+        </button>
       </div>
     );
   }

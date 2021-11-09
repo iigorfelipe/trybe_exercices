@@ -80,16 +80,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 11: React
 
-- [ ] 11-1: _Components com estado_
-- [ ] 11-2: _Eventos e formulários no React_
-- [ ] 11-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 11-1: _Components com estado_
+- [x] 11-2: _Eventos e formulários no React_
+- [ ] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [ ] 12-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [ ] 12-2: _Ciclo de vida de componentes em React_
+- [ ] 12-3: _React Router_
+- [ ] 12-4: _[Projeto - Movie Cards Library CRUD]()_
 
 ##### Bloco 13: Metodologias Ágeis
 

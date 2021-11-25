@@ -1,0 +1,17 @@
+.pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  min-width: 25%;
+  margin: 10px 10px;
+  border: transparent;
+}
+
+.button-details {
+  background-color: transparent;
+  border: transparent;
+  color: rgb(1, 120, 255);
+  cursor: pointer;
+  font-size: 1em;
+}

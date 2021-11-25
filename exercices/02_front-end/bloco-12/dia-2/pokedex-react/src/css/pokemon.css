@@ -5,6 +5,13 @@
   flex: 1 1 auto;
   min-width: 25%;
   margin: 10px 10px;
-  border: 1px gray solid;
-  border-radius: 10px;
+  border: transparent;
+}
+
+.button-details {
+  background-color: transparent;
+  border: transparent;
+  color: rgb(1, 120, 255);
+  cursor: pointer;
+  font-size: 1em;
 }

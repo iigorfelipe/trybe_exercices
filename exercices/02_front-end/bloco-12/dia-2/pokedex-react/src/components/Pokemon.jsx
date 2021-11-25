@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/pokemon.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 class Pokemon extends React.Component {
   render() {
@@ -13,10 +13,11 @@ class Pokemon extends React.Component {
           <p>
             Average weight: {`${averageWeight.value} ${averageWeight.measurementUnit}`}
           </p>
+          <Link to="/details" className="link-details">
+            More details
+          </Link>
         </div>
-        <Link exact to="/:id">
-          <img src={image} alt={`${name} sprite`} />
-        </Link>
+        <img src={image} alt={`${name} sprite`} />
       </div>
     );
   }

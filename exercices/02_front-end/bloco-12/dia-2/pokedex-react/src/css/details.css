@@ -1,0 +1,8 @@
+.container-details {
+  display: none;
+}
+
+.active {
+  text-decoration: none;
+  margin-top: 30px;
+}

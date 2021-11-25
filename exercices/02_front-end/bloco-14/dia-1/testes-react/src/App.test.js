@@ -1,35 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
-
-test('Verificando se existe o campo Email.', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const inputEmail = screen.getByLabelText('Email');
-
-  // fazer os testes
-  expect(inputEmail).toBeInTheDocument();
-  expect(inputEmail).toHaveProperty('type', 'email');
-});
-
-test('Verificando se existe dois botões', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const buttons = screen.getAllByRole('button');
-
-  // fazer os testes
-  expect(buttons).toHaveLength(2);
-});
-
-test('Verificando se existe um botão de enviar', () => {
-  // acessar os elementos da tela
-  render(<App />);
-  const btnSend = screen.getByTestId('id-send');
-
-  // fazer os testes
-  expect(btnSend).toBeInTheDocument();
-  expect(btnSend).toHaveProperty('type', 'button');
-  expect(btnSend).toHaveValue('Enviar');
-});
+import userEvent from '@testing-library/user-event';
 
 // 1 - acessar os elementos da tela
 
@@ -37,6 +8,58 @@ test('Verificando se existe um botão de enviar', () => {
 
 // 3 - fazer os testes
 
+describe("Tela de inserção de email", () => {
+  it('Verificando se existe o campo Email.', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const inputEmail = screen.getByLabelText('Email');
+  
+    // fazer os testes
+    expect(inputEmail).toBeInTheDocument();
+    expect(inputEmail).toHaveProperty('type', 'email');
+  });
+  
+  it('Verificando se existe dois botões', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const buttons = screen.getAllByRole('button');
+  
+    // fazer os testes
+    expect(buttons).toHaveLength(2);
+  });
+  
+  it('Verificando se existe um botão de enviar', () => {
+    // acessar os elementos da tela
+    render(<App />);
+    const btnSend = screen.getByTestId('id-send');
+  
+    // fazer os testes
+    expect(btnSend).toBeInTheDocument();
+    expect(btnSend).toHaveProperty('type', 'button');
+    expect(btnSend).toHaveValue('Enviar');
+  });
+  
+  it('Verificando se o botão e o campo email estão funcionando.', () => {
+      // acessar os elementos da tela
+    render(<App />);
+    const EMAIL_USER = 'email@email.com';
+    const textEmail = screen.getByTestId('id-email-user');
+  
+    // fazer os testes
+    expect(textEmail).toBeInTheDocument();
+    expect(textEmail).toHaveTextContent('Valor:');
+  
+    // interager com os elementos (se for necessário)
+    const btnSend = screen.getByTestId('id-send');
+    const inputEmail = screen.getByLabelText('Email');
+    userEvent.type(inputEmail, EMAIL_USER);
+    userEvent.click(btnSend);
+  
+    // fazer os testes
+    expect(inputEmail).toHaveValue('');
+    expect(textEmail).toHaveTextContent(`Valor: ${ EMAIL_USER }`);
+  });
+});
 
 // códigos para usar no screen:
 // .getByLabelText("string"): procura pela label

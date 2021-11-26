@@ -63,8 +63,8 @@ describe("Tela de inserção de email", () => {
 
 // códigos para usar no screen:
 // .getByLabelText("string"): procura pela label
-// .getByRole("funcão"): procura pela função
-// .getAllByRole("funcão"): procura por todas as funções do mesmo tipo
+// .getByRole(TAG): procura pela TAG
+// .getAllByRole(TAG): procura por todas as TAGs do mesmo tipo
 // .getByTestId("id-test"): procura pelo nome do data-test
 
 // códigos para usar no expect:

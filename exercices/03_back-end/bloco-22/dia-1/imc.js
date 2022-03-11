@@ -1,9 +1,8 @@
-const WEIGHT = 790;
-const HEIGHT = 915
+const readline = ('readline-sync');
 
 function calcIMC () {
-  const weigth = WEIGHT;
-  const height = HEIGHT;
+  const weigth = readline.questionFloat('Qual o seu peso? (em kg)');
+  const height = readline.questionFloat('Qual a sua altura? (em cm)');
 
   console.log(`Weigth: ${weigth}, Height: ${height}`);
 

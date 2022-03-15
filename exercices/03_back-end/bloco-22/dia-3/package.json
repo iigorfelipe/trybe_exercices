@@ -1,0 +1,16 @@
+{
+  "name": "dia-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "media.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

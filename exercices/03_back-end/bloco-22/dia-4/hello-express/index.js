@@ -1,5 +1,8 @@
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
+app.use(cors());
 
 const recipes = [
   { id: 1, name: 'Lasanha', price: 40.0, waitTime: 30 },

@@ -1,4 +1,4 @@
-const Author = require('./services/Authors');
+const Author = require('../services/Author');
 
 const getAll = async (_req, res) => {
   const authors = await Author.getAll();

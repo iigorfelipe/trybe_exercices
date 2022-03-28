@@ -152,17 +152,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
 - [x] 22-1: _Intro - Node.js um motor JavaScript_
-- [ ] 22-2: _Node.js - Fluxo Assíncrono_
-- [ ] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [ ] 22-4: _Express - HTTP com Node.js_
-- [ ] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [x] 22-2: _Node.js - Fluxo Assíncrono_
+- [x] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [x] 22-4: _Express - HTTP com Node.js_
+- [x] 22-5: _Express - Middlewares_
+- [x] 22-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Introdução - Arquitetura de Software_
-- [ ] 23-1: _Arquitetura de Software - Camade de Model_
-- [ ] 23-2: _Arquitetura de Software - Camade de Controller e Service_
+- [x] 23-1: _Introdução - Arquitetura de Software_
+- [x] 23-1: _Arquitetura de Software - Camade de Model_
+- [x] 23-2: _Arquitetura de Software - Camade de Controller e Service_
 - [ ] 23-3: _Arquitetura Web - Rest e Restful_
 - [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
 - [ ] 23-5: _[Projeto - Store Manager]()_

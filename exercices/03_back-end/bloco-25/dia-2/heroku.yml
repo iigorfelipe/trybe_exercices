@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Dcokerfile
+    web: Dockerfile
 
 run:
   web: node index.js

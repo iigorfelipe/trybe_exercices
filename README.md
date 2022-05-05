@@ -170,16 +170,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
 - [x] 24-1: _Introdução - Node.js: ORM e Autenticação_
-- [ ] 24-1: _ORM Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM Associations_
+- [x] 24-1: _ORM Interface da aplicação com o banco de dados_
+- [x] 24-2: _ORM Associations_
 - [x] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [x] 24-4: _Testando APIs com Testes de Integração_
+- [x] 24-5: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Deployment
 
-- [ ] 25-1: _Introdução - Deploy_
-- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [x] 25-1: _Introdução - Deploy_
+- [x] 25-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Stranger Things]()_
 

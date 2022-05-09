@@ -180,13 +180,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 25-1: _Introdução - Deploy_
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Stranger Things]()_
+- [x] 25-2: _Deploy Docker & Heroku_
+- [x] 25-3: _[Stranger Things]()_
 
 ##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Introdução - TypeScript_
-- [ ] 26-1: _Introdução ao TypeScript_
+- [x] 26-1: _Introdução - TypeScript_
+- [x] 26-1: _Introdução ao TypeScript_
 - [ ] 26-2: _Tipagem ao TypeScript_
 - [ ] 26-3: _Express com TypeScript_
 - [ ] 26-4: _[Projeto - Trybe Smith]()_

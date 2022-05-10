@@ -24,7 +24,7 @@ enum CoresDoArcoIris {
 };
 
 enum Acoes {
-  Salvar = 1,
+  Salvar,
   Imprimir,
   Abrir,
   Visualisar,

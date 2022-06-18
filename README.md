@@ -202,7 +202,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 28: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Bloco 29: Introdução ao MongoDB
 

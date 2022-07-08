@@ -217,7 +217,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Bloco 30: MongoDB com Node.js e POO
 
 - [x] 30-1: _MongoDB e arquitetura MSC_
-- [ ] 30-2: _MongoDB e POO_
+- [x] 30-2: _MongoDB e POO_
 - [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: MasterCLass - VPS, CI/CD

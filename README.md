@@ -218,7 +218,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] 30-1: _MongoDB e arquitetura MSC_
 - [x] 30-2: _MongoDB e POO_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [x] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: MasterCLass - VPS, CI/CD
 - [ ] 31-1: _EM BREVE_

@@ -226,7 +226,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 32: Projeto - App de Delivery
 
-- [ ] 32-1: _[Projeto - App de Delivery]()_
+- [x] 32-1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 

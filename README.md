@@ -259,18 +259,20 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 36-3: _Algoritmos de ordenação e busca_
 - [X] 36-4: _[Projeto - Algoritimos]()_
 
-##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+##### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-2: _Arrays_
-- [ ] 37-3: _Hashmap e Dict_
-- [ ] 37-4: _Set_
-- [ ] 37-5: _[Projeto - Restaurant Orders]()_
+- [X] 37-1: _Arquitetura de Computadores_
+- [X] 37-2: _Arrays_
+- [X] 37-2: _Nó e Listas Encadeadas_
+- [X] 37-4: _Pilhas e Filas_
+- [X] 37-5: _[Projeto - TING - Trybe Is Not Google]()_
 
-##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+##### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-2: _Pilhas e Filas_
-- [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
+- [X] 38-1: _Hashmap e Dict_
+- [X] 38-2: _Set_
+- [] 38-3: _[Projeto - Restaurant Orders]()_
+
+
 
 # [...]

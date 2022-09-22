@@ -271,7 +271,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [X] 38-1: _Hashmap e Dict_
 - [X] 38-2: _Set_
-- [] 38-3: _[Projeto - Restaurant Orders]()_
+- [ ] 38-3: _[Projeto - Restaurant Orders]()_
 
 
 
